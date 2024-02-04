@@ -31,3 +31,22 @@ body{
     
     justify-content: center;
 }
+h1{
+    animation-name: heading;
+    animation-duration:5s ;
+    animation-fill-mode: both;
+}
+@keyframes heading{
+    0%{
+     
+        transform:translateX(0%) ;
+    }
+    50%{
+        color: darkblue;
+        transform: translateX(50%);
+        
+    }
+    100%{
+        transform: translateX(0%);
+}
+}
