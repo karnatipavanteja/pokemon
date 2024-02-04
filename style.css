@@ -5,4 +5,29 @@
     flex-wrap: wrap;
     width: 80%;
     margin: auto;
+    color: black;
+    background-color: brown;
+
+
+}
+#pokemons-list :hover{
+    height:40%;
+    width:30% ;
+}
+body{
+    
+
+    background-color: aqua;
+}
+#search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#pokemon-types{
+    display: flex;
+    row-gap:10rem;
+    flex-direction: column;
+    
+    justify-content: center;
 }
